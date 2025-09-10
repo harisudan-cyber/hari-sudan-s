@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-int a;
-scanf("%d",&a);
-printf("%x",a);
-return 0;
-}
+		int a,b;
+		scanf("%d%d",&a,&b);
+		printf("%d\n%d",b,a);
+	}
